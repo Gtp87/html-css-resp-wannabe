@@ -75,6 +75,7 @@ img {
 @media screen and (max-width: 420px) {
   body {
     margin: 0;
+    padding: 0;
   }
 
   #lezioni, 
@@ -103,9 +104,9 @@ img {
 
   #steps .row img {
     display: block;
-    margin: auto;
     max-width: 40%;
     height: auto;
+    margin: auto;
   }
 
   #why .row img {
@@ -114,7 +115,9 @@ img {
     max-width: 20%;
     height: auto;
   }
-
-  
-
+#lezioni .row>.left, 
+#lezioni .row>.right {
+ float: none;
+ width: 100%;
+}
 }
