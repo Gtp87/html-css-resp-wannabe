@@ -86,6 +86,33 @@ img {
     padding-bottom: 1em;
   }
 
+  .row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 0.8em;
+    margin: 0;
+  }
 
+  #lezioni .row img {
+    display: block;
+    max-width: 30%;
+    height: auto;
+    margin: auto;
+  }
+
+  #steps .row img {
+    display: block;
+    margin: auto;
+    max-width: 40%;
+    height: auto;
+  }
+
+  #why .row img {
+    display: block;
+    margin: auto;
+    max-width: 20%;
+    height: auto;
+  }
 
 }
